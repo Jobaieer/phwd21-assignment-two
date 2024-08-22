@@ -3,3 +3,28 @@
 ** Global CSS File
 ** Written by Jobaieer
 */
+
+/* Montserrat Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Colors */
+:root {
+  --color-b: #000000;
+  --color-w: #ffffff;
+  --color-a: #b6b6b6;
+  --color-o: #f48e28;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-w);
+  font-family: "Montserrat", sans-serif;
+}
+
+.ss-margin {
+  margin: 0 100px;
+}
