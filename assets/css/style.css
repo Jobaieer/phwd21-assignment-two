@@ -3,3 +3,56 @@
 ** Style CSS File
 ** Written by Jobaieer
 */
+
+/** Header Container */
+/* Navbar Section Start */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.nav-logo {
+  width: 312px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+  width: 312px;
+  justify-content: center;
+}
+
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: var(--color-b);
+  font-weight: bold;
+}
+
+.div-search {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 312px;
+  border: 1px solid var(--color-w);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+.div-search input {
+  border: none;
+  background-color: transparent;
+  border-right: 1px solid var(--color-a);
+}
+
+.search-input {
+  height: 40px;
+}
+
+/* Navbar Section End */
