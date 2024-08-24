@@ -29,3 +29,8 @@ body {
 .ss-margin {
   margin: 0 100px;
 }
+
+.heading-text {
+  text-align: center;
+  margin-bottom: 50px;
+}
