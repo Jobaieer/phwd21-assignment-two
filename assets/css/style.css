@@ -218,11 +218,6 @@ a {
 /* Contact Section End */
 
 /* Product Section Start*/
-.product-text {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
 .product-card {
   background-color: var(--color-w);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -302,3 +297,44 @@ a {
   margin-bottom: 100px;
 }
 /*Product Section End*/
+
+/* Services Section Start */
+
+.s-card-bg {
+  height: 400px;
+  width: 400px;
+  background-color: var(--color-w);
+  border: 1px solid var(--color-a);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  border-radius: 42px;
+}
+.s-card-t {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 330px;
+  width: 400px;
+}
+
+.services-card :hover {
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.s-card-wrapper {
+  display: flex;
+}
+.services-card img {
+  width: 100px;
+  height: 100px;
+}
+.contact-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Services Section End */
