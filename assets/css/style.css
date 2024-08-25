@@ -263,7 +263,7 @@ a {
 
 .p-btn:hover {
   background-color: var(--color-l-o);
-  color: var(--color-b);
+  color: var(--color-o);
 }
 
 .card-bottom {
@@ -295,6 +295,11 @@ a {
   color: var(--color-w);
   padding: 15px 50px;
   margin-bottom: 100px;
+}
+
+.see-more-btn:hover {
+  background-color: var(--color-l-o);
+  color: var(--color-o);
 }
 /*Product Section End*/
 
@@ -454,6 +459,12 @@ a {
   border: none;
   border-radius: 15px;
 }
+
+.sub-btn:hover {
+  color: var(--color-o);
+  background-color: var(--color-l-o);
+}
+
 /* News Section End */
 
 /*Footer Container Start */
@@ -556,6 +567,10 @@ a {
 .footer-mail input {
   border: none;
   color: #f8f8fa;
+}
+
+.e-arw-icon circle:hover {
+  fill: var(--color-l-o);
 }
 
 /*Footer Container End */
