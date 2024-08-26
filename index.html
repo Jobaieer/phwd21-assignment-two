@@ -352,7 +352,7 @@
           <h6 class="color">Product</h6>
           <h1>Most Popular Items</h1>
         </div>
-        <div class="product-cards-gird">
+        <div id="products" class="product-cards-gird">
           <div class="product-card">
             <img
               src="./img/main-product-images/item1.png"
@@ -595,7 +595,11 @@
           </div>
         </div>
         <div class="bottom-btn">
-          <button class="see-more-btn" title="See More Products">
+          <button
+            class="see-more-btn"
+            title="See More Products"
+            onclick="seeMoreProducts()"
+          >
             See More Products
             <svg
               width="24"
@@ -856,17 +860,20 @@
               Subscribers get first dibs on discounts, special menus, and secret
               recipes. Treat yourself to a little extra flavor!
             </p>
-            <div class="n-i-btn">
+
+            <form onsubmit="subEmail(event)" class="n-i-btn form-s">
               <input
                 type="email"
-                id="email"
                 name="email"
                 class="sub-mail"
                 placeholder=" Type your email..... "
                 required
               />
-              <button class="sub-btn" title="Subscribe">Subscribe</button>
-            </div>
+              <button class="sub-btn" title="Subscribe" type="submit">
+                Subscribe
+              </button>
+            </form>
+            <div id="success_container"></div>
           </div>
         </div>
       </section>
@@ -1062,7 +1069,11 @@
                 <li class="para-c-a para-m-b">+88 017 0000 0000</li>
                 <li class="para-c-a para-m-b">+88 018 0000 0000</li>
               </ul>
-              <div class="footer-mail">
+
+              <form
+                onsubmit="submitMail(event)"
+                class="footer-mail footer-form i-s-f"
+              >
                 <input
                   type="email"
                   name="email"
@@ -1070,29 +1081,35 @@
                   placeholder="  Enter your email..."
                   required
                 />
-                <svg
-                  width="42"
-                  height="42"
-                  viewBox="0 0 42 42"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="e-arw-icon"
-                >
-                  <circle cx="21" cy="21" r="21" fill="#F48E28" />
-                  <path
-                    d="M16 31L26 21L16 11"
-                    stroke="white"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </div>
+                <button type="submit" class="submit-btn" title="Submit">
+                  <svg
+                    width="42"
+                    height="42"
+                    viewBox="0 0 42 42"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="e-arw-icon"
+                  >
+                    <circle cx="21" cy="21" r="21" fill="#F48E28" />
+                    <path
+                      d="M16 31L26 21L16 11"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </form>
+              <div id="submitted_container"></div>
             </div>
           </div>
         </div>
       </div>
     </footer>
     <!-- Footer Container End -->
+
+    <!-- Script JS File -->
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
