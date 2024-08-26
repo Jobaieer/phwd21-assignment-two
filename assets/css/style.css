@@ -74,9 +74,18 @@ a {
   width: 250px;
 }
 
+.h-left-t:hover {
+  border: 1px solid var(--color-o);
+  background-color: var(--color-o);
+}
+
 .h-left-t p {
   color: var(--color-o);
   padding-left: 20px;
+}
+
+.h-left-t p:hover {
+  color: var(--color-l-o);
 }
 
 .h-left-t img {
@@ -449,6 +458,8 @@ a {
   border: none;
   width: 250px;
   height: 30px;
+  padding-left: 5px;
+  color: var(--color-o);
 }
 
 .sub-btn {
@@ -463,6 +474,11 @@ a {
 .sub-btn:hover {
   color: var(--color-o);
   background-color: var(--color-l-o);
+}
+
+#success_container {
+  color: var(--color-l-o);
+  text-align: center;
 }
 
 /* News Section End */
@@ -564,13 +580,32 @@ a {
   padding: 5px 0px;
 }
 
+.i-s-f {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .footer-mail input {
   border: none;
-  color: #f8f8fa;
+  color: var(--color-o);
+  padding-left: 5px;
+  height: 30px;
 }
 
 .e-arw-icon circle:hover {
   fill: var(--color-l-o);
+}
+
+.submit-btn {
+  background-color: transparent;
+  border: none;
+}
+
+#submitted_container {
+  padding-top: 10px;
+  text-align: center;
+  color: var(--color-o);
 }
 
 /*Footer Container End */
