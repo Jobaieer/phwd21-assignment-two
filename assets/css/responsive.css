@@ -1,0 +1,159 @@
+/**
+** 21 Days of Code : Assignment-2
+** Responsive CSS File
+** Written by Jobaieer
+*/
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  .ss-margin {
+    margin: 0 10px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+  }
+
+  .nav-logo {
+    text-align: center;
+  }
+  .nav-menu {
+    font-size: 20px;
+  }
+
+  .hero-wrapper {
+    flex-direction: column;
+  }
+
+  .hero-left {
+    width: 100%;
+  }
+
+  .h-left-m h1 {
+    font-size: 55px;
+  }
+
+  .h-left-m br {
+    display: none;
+  }
+
+  .hide-m-d {
+    display: none;
+  }
+
+  .hero-right {
+    width: 100%;
+    padding: 0px 0px;
+    margin-top: 100px;
+  }
+
+  .hero-cards {
+    height: 500px;
+  }
+
+  .contact-flex {
+    padding: 30px 20px;
+  }
+
+  .contact-card {
+    gap: 10px;
+    padding: 0px 5px;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .product-cards-gird {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+
+  .services-card-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    height: 100%;
+  }
+
+  .s-card-bg {
+    width: 100%;
+  }
+
+  .services-card {
+    height: 400px;
+  }
+
+  .t-wrapper {
+    flex-direction: column;
+  }
+
+  .t-left {
+    width: 80%;
+    padding: 50px 20px;
+  }
+
+  .t-right img {
+    width: 100%;
+  }
+
+  .ar-logo-set {
+    bottom: 500px;
+    right: 30px;
+    gap: 280px;
+  }
+
+  #news-section {
+    height: 100%;
+  }
+
+  .n-wrapper {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0px;
+  }
+
+  .n-left {
+    width: 100%;
+  }
+
+  .n-right {
+    gap: 30px;
+    padding: 10px 0px;
+  }
+
+  .footer-wrapper {
+    gap: 15px;
+  }
+
+  .footer-left {
+    width: 44%;
+    gap: 50px;
+  }
+
+  .footer-left img {
+    width: 75%;
+  }
+
+  .footer-text-b {
+    gap: 50px;
+  }
+
+  .para-c-a {
+    text-align: justify;
+  }
+
+  .footer-right {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer-social {
+    display: flex;
+    gap: 5px;
+  }
+
+  .footer-social {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 20px 0px;
+  }
+}
