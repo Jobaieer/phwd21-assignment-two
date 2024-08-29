@@ -358,6 +358,7 @@ a {
 /* Testimonial Section Start*/
 #testimonial-section {
   margin-top: 100px;
+  margin-bottom: 150px;
 }
 
 .t-profile {
@@ -377,8 +378,7 @@ a {
   border: 1px solid var(--color-w);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   border-radius: 35px;
-  padding: 100px 20px;
-  margin: 0px 10px;
+  padding: 50px 20px;
   width: 50%;
 }
 
@@ -398,11 +398,7 @@ a {
 
 .ar-logo-set {
   display: flex;
-  width: 50%;
-  position: relative;
-  bottom: 250px;
-  right: 35px;
-  gap: 480px;
+  justify-content: space-between;
 }
 /* Testimonial Section End */
 
@@ -583,7 +579,7 @@ a {
 .i-s-f {
   display: flex;
   align-items: center;
-  gap: 5px;
+  justify-content: space-between;
 }
 
 .footer-mail input {
@@ -601,6 +597,8 @@ a {
 .submit-btn {
   background-color: transparent;
   border: none;
+  display: flex;
+  align-items: center;
 }
 
 #submitted_container {
