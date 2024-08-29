@@ -3,11 +3,15 @@
 ** Responsive CSS File
 ** Written by Jobaieer
 */
+
+/* Responsive for Mobile Devices */
 @media only screen and (min-width: 200px) and (max-width: 575px) {
   .ss-margin {
     margin: 0 10px;
   }
 
+  /* Header Container Start */
+  /* Navbar Section Start */
   .navbar {
     flex-direction: column;
     align-items: center;
@@ -21,7 +25,9 @@
   .nav-menu {
     font-size: 20px;
   }
+  /* Navbar End */
 
+  /* Hero Section Start */
   .hero-wrapper {
     flex-direction: column;
   }
@@ -51,7 +57,11 @@
   .hero-cards {
     height: 500px;
   }
+  /* Hero Section End */
+  /* Header Container End */
 
+  /*Main Container Start */
+  /* Contact Section Start */
   .contact-flex {
     padding: 30px 20px;
   }
@@ -62,12 +72,16 @@
     text-align: center;
     font-size: 10px;
   }
+  /* Contact Section End */
 
+  /* Product Section Start */
   .product-cards-gird {
     grid-template-columns: repeat(1, 1fr);
     gap: 50px;
   }
+  /* Product Section End */
 
+  /* Services Section Start */
   .services-card-grid {
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
@@ -81,7 +95,9 @@
   .services-card {
     height: 400px;
   }
+  /* Services Section End */
 
+  /* Testimonial Section Start*/
   .t-wrapper {
     flex-direction: column;
   }
@@ -96,11 +112,11 @@
   }
 
   .ar-logo-set {
-    bottom: 500px;
-    right: 30px;
-    gap: 280px;
+    justify-content: space-between;
   }
+  /* Testimonial Section End */
 
+  /* Newsletter Section Start */
   #news-section {
     height: 100%;
   }
@@ -116,10 +132,18 @@
   }
 
   .n-right {
+    width: auto;
     gap: 30px;
-    padding: 10px 0px;
+    padding: 10px 20px;
   }
 
+  .n-i-btn {
+    width: auto;
+  }
+  /* Newsletter Section End */
+  /*Main Container End */
+
+  /* Footer Container Start */
   .footer-wrapper {
     gap: 15px;
   }
@@ -155,5 +179,128 @@
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
     gap: 20px 0px;
+  }
+  /* Footer SContainer End */
+}
+
+/* Responsive for Tablet Devices */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .ss-margin {
+    margin: 0 10px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+  }
+
+  .nav-logo {
+    text-align: center;
+  }
+  .nav-menu {
+    font-size: 20px;
+  }
+
+  .h-left-m h1 {
+    font-size: 40px;
+  }
+
+  .h-left-m br {
+    display: none;
+  }
+
+  .hide-m-d {
+    display: none;
+  }
+
+  .h-left-d {
+    gap: 0px;
+  }
+
+  .h-left {
+    width: 40%;
+  }
+
+  .hero-left {
+    width: 40%;
+  }
+
+  .hero-right {
+    width: 50%;
+
+    padding: 50px 0px;
+  }
+
+  .hero-wrapper {
+    gap: 5%;
+  }
+
+  .hero-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    height: 200px;
+  }
+
+  .btn-on {
+    padding: 20px 20px;
+    height: 65px;
+    font-size: 16px;
+  }
+
+  .play-button h3 {
+    font-size: 16px;
+  }
+
+  .play-button {
+    width: 100px;
+  }
+
+  .product-card {
+    width: 360px;
+  }
+
+  .product-card img {
+    width: 360px;
+  }
+
+  .product-cards-gird {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sub-mail {
+    width: 120px;
+  }
+
+  .n-right {
+    width: 300px;
+  }
+
+  .n-i-btn {
+    width: 250px;
+  }
+
+  .t-right {
+    width: 50%;
+  }
+
+  .footer-left {
+    width: 100%;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .footer-social {
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
   }
 }
