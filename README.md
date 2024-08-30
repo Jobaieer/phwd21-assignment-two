@@ -10,7 +10,7 @@ In this repo, I want to share my second assignment `Portfolio` on this `Web Deve
 
 Live-Server link of this `phwd21_assignments`
 
-`GitHub Pages` - https://jobaieer.github.io/phwd21_assignments/
+`GitHub Pages` - https://jobaieer.github.io/phwd21-assignment-two/
 
 ## 🧑‍💻Tech Stack
 
