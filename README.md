@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="./image/phwd21.jpg">
+	<img src="./img/phwd21.jpg/">
 </div>
 
 ## `Programming Hero`X`Web Development 21 Days of Code`-`PHWD21`
